@@ -21,11 +21,11 @@ class Item(BaseModel):
 async def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request, "items": data})
 
-@app.post("/toggle/")
-async def toggle_items(item: Item):
-    for item_id in item.ids:
-        for entry in data:
-            if entry["id"] == item_id:
-                entry["selected"] = not entry.get("selected", False)
-    return {"message": "Toggled selected items"}
+# @app.post("/toggle/")
+# async def toggle_items(item: Item):
+#     for item_id in item.ids:
+#         for entry in data:
+#             if entry["id"] == item_id:
+#                 entry["selected"] = not entry.get("selected", False)
+#     return {"message": "Toggled selected items"}
 
