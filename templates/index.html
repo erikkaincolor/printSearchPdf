@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-style Checkbox</title>
+    <link rel="stylesheet" href="/static/normalize.css">
+    <link rel="stylesheet" href="/static/skeleton.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+
+    <!-- add printJS -->
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+
+</head>
+<body style="margin-top: 0.5in; margin-left: 0.5in;">
+    <h1>Select items</h1>
+    
+    
+    <form id="checkbox-form">
+        <label><input type="checkbox" id="select-all"> Select All</label>
+        <p id="counter">0 items selected</p>
+
+        <hr>
+
+        {% for item in items %}
+            <label><input type="checkbox" class="checkbox" value="{{ item.id }}"> {{ item.name }}</label><br>
+        {% endfor %}
+    </form>
+
+    <div id='printPdfBtnContainer'></div>
+    <script src="static/main.js"></script>
+    <script>dynamicPdfButton();</script>
+
+</body>
+</html>
