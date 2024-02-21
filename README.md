@@ -14,4 +14,4 @@ In this repo:
 - Introduced a counter for selected items, providing users with instant feedback.
 - Implemented a print to pdf functionaily using printJS library.
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=erikkaincolor.printSearchPdf)
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=erikkaincolor.758987167)
