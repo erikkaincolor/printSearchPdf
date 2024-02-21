@@ -10,13 +10,13 @@
 
 I've developed a habit of prototyping certain software features and functionalities that I either need to learn for work or personal development. This #printSearchPdf is an instance of that. I wanted to play around with the PDF printJS library, implement JS, and practice toggle effects. 
 
-## TL;DR:
+# TL;DR:
 - Used a fastapi server framework
 - Implemented "Select All/Unselect All" functionality for checkboxes, improving the user experience.
 - Introduced a counter for selected items, providing users with instant feedback.
 - Implemented a print to pdf functionaily using printJS library.
-- 
-## In this repo...
+
+# In this repo...
 Static > main.js, Lines 16-25: 
 This code handles checkbox interactions. It checks that the "Select All" checkbox reflects the 'state' of individual checkboxes, providing an easy user experience. The code also keeps track of the selected items through a counter, updating dynamically as the user interacts with the checkboxes. This not only enhances the user experience but also gives transparency, allowing the user to know how many items they have selected.
 
