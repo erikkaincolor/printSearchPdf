@@ -3,6 +3,8 @@
 
 ## printSearchPdf Feature
 
+![](https://github.com/erikkaincolor/printSearchPdf/blob/main/print2pdf.gif)     
+
 # Tech Stack
 <img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' width="40"/> <img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/html.svg' width='40'/> <img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/css.svg' width='40'/> <img src = 'https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/js.svg' width='43'/>
 
